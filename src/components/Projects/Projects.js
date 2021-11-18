@@ -4,20 +4,6 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const projectsDemo = [{
-  title: 'Projet 1',
-  description: 'Ceci est la description du projet.'
-},{
-  title: 'Projet 2',
-  description: 'Ceci est la description du projet.'
-},{
-  title: 'Projet 3',
-  description: 'Ceci est la description du projet.'
-},{
-  title: 'Projet 4',
-  description: 'Ceci est la description du projet.'
-}]
-
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
