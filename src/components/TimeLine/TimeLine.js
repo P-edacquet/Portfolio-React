@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id="a_propos">
       <SectionTitle>À propos de moi</SectionTitle>
       <SectionText>
         J'ai appris Ruby en entreprise, et ai perfectionné mes compétences en apprenant React.js
