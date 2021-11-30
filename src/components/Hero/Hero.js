@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Je suis un développeur React on Rails junior. Je suis actuellement en formation à la Tech&Code Factory. Je serai disponible à partir d'Octobre 2022.
       </SectionText>
-      <Button onClick={() => window.location = 'http://localhost:3000/#projects'}>En Savoir Plus</Button>
+      <Button onClick={() => window.location = '#projets'}>En Savoir Plus</Button>
     </LeftSection>
   </Section>
 );
