@@ -14,6 +14,7 @@ const Acomplishments = () => (
   <Section>
     <SectionTitle>Accomplissements personnels</SectionTitle>
     <Boxes>
+      {/* prend en paramètre la liste des accomplissements */}
       {data.map((card, index) => (
         <Box key={index}>
           <BoxNum>{card.number}</BoxNum>
@@ -21,6 +22,7 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
+    <SectionDivider />
   </Section>
 );
 

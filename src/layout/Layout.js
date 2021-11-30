@@ -7,9 +7,10 @@ import { Container } from './LayoutStyles'
 export const Layout = ({children}) => {
   return (
     <Container>
-     <Header/>
-     <main>{children}</main> 
-     <Footer/>
+      <Header/>
+      {/* affiche tous ce qui est à l'intérieur des balises <Layout></Layout> */}
+      <main>{children}</main> 
+      <Footer/>
     </Container>
   )
 }

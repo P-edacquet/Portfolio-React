@@ -1,3 +1,5 @@
+
+// Liste des projets
 export const projects = [
   {
     title: 'MERN Memories',
@@ -37,9 +39,10 @@ export const projects = [
   },
 ];
 
+// Liste du parcours
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2016-2019, text: 'Étudiant en licence maths/info à l\'UPEC', },
+  { year: 2019-2020, text: 'Worked as a freelance developer', },
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },

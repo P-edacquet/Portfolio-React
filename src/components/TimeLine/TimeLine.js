@@ -44,7 +44,6 @@ const Timeline = () => {
 
   return (
     <Section id="a_propos">
-      <SectionDivider />
       <SectionTitle>À propos de moi</SectionTitle>
       <SectionText>
         J'ai appris Ruby en entreprise, j'ai aussi perfectionné mes compétences en apprenant React.js
